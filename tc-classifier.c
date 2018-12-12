@@ -9,7 +9,7 @@
 #include <linux/pkt_cls.h>
 #include <linux/tcp.h>
 
-#include "xdp-utils.h"
+#include "utils.h"
 #define SEC(NAME) __attribute__((section(NAME), used))
 
 struct http_payload {
